@@ -1,15 +1,15 @@
-Pipeline {
+pipeline {
     agent none
-    Stages{
-        stage(build){
+     stages{
+        stage("build"){
             steps{
                 echo "stage build"
             }
         }
-        stage(Test){
+        stage("Test"){
             steps {
                 echo "stage test"
             }
         }
-    }
+     }
 }
