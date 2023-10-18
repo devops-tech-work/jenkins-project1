@@ -17,5 +17,5 @@ pipeline {
                 sh ./project1.sh
             }
         }
-     }
+    }
 }
