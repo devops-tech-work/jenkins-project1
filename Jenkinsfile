@@ -11,5 +11,11 @@ pipeline {
                 echo "stage test"
             }
         }
+        stage("Run sh script"){
+            steps{
+                sh chmod +x project1.sh
+                sh ./project1.sh
+            }
+        }
      }
 }
